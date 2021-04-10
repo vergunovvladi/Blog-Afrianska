@@ -1,0 +1,20 @@
+{
+  "name": "blog-afrianska",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "node-sass styles/ -o css/",
+    "watch": "npm run compile && node-sass ./styles/styles.scss -wo css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladislavvergunov/Blog-Afrianska.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vladislavvergunov/Blog-Afrianska/issues"
+  },
+  "homepage": "https://github.com/vladislavvergunov/Blog-Afrianska#readme"
+}
